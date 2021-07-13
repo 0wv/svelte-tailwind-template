@@ -49,7 +49,8 @@ export default {
 						require('tailwindcss'),
 						require('autoprefixer')
 					]
-				}
+				},
+				sourceMap: !production
 			})
 		}),
 		// we'll extract any component CSS out into
