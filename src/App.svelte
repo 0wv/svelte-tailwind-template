@@ -1,4 +1,5 @@
 <script>
+	import Tailwind from './components/Tailwind.svelte'
 	export let name;
 </script>
 
@@ -28,3 +29,5 @@
 		}
 	}
 </style>
+
+<Tailwind />
