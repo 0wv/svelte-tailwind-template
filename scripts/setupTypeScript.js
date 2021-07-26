@@ -56,7 +56,6 @@ let rollupConfig = fs.readFileSync(rollupConfigPath, "utf8")
 
 // Edit imports
 rollupConfig = rollupConfig.replace(`'rollup-plugin-terser';`, `'rollup-plugin-terser';
-import sveltePreprocess from 'svelte-preprocess';
 import typescript from '@rollup/plugin-typescript';`)
 
 // Replace name of entry point
